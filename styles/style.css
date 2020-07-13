@@ -1,6 +1,5 @@
 /* * {
   outline: 1px solid red;
-  box-sizing: border-box;
   } */
 
 .page {
@@ -33,6 +32,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  overflow: hidden;
   /* выше установили ограничения для секции */
 }
 
@@ -138,6 +138,55 @@
   font-weight: bold;
 }
 
+.digits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.section-title {
+  width: 60%;
+  margin: 0;
+  text-align: center;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.digits__separator {
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin: 0;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  display: flex;
+  width: 1100px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.table__cell {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.table__cell_theme_white {
+  width: 250px;
+  color: black;
+  margin-right: 0;
+  margin-top: 60px;
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -146,3 +195,27 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+
+.table__heading {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.text_color_black {
+  color: black;
+}
+
+.text_color_white {
+  color: white;
+}
+
+.table__text {
+  margin: 20px 0 0 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+

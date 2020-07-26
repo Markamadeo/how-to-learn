@@ -1,0 +1,9 @@
+.khan__link {
+  color: #2f80ed;
+  align-self: flex-start;
+  margin-left: 48px;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  text-decoration: none;
+}

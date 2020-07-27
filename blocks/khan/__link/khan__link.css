@@ -6,4 +6,10 @@
   font-size: 30px;
   font-weight: normal;
   text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.khan__link:hover {
+  opacity: .5;
 }

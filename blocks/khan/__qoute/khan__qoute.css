@@ -6,3 +6,7 @@
   font-size: 24px;
   font-weight: normal;
 }
+
+.khan__qoute > p {
+  margin: 0;
+}

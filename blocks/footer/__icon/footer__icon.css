@@ -1,3 +1,7 @@
+@import url(./_name/footer__icon_name_facebook.css);
+@import url(./_name/footer__icon_name_vk.css);
+@import url(./_name/footer__icon_name_instagram.css);
+
 .footer__icon::before {
   content: "";
   margin-right: 10px;
